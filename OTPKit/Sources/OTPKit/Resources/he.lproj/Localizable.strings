@@ -1,0 +1,527 @@
+/*
+ * OTPKit Strings - Hebrew (he)
+ */
+
+/* Localizable.strings (Base)
+ */
+
+/* Test */
+
+
+/* Titles */
+"error.network.title" = "שגיאת רשת";
+
+"error.trip_planning.title" = "שגיאה בתכנון מסלול";
+
+/* Messages */
+"error.api.message" = "שגיאת ממשק (API): %@";
+
+"error.trip_planning.message" = "תכנון המסלול נכשל: %@";
+
+"error.missing_locations.message" = "אנא בחר נקודת מוצא ונקודת יעד.";
+
+"error.unknown" = "אירעה שגיאה בלתי ידועה.";
+
+/* Planning */
+"error.system_error" = "לא הצלחנו לתכנן את הנסיעה שלך כרגע. אנא נסה שוב.";
+
+"error.graph_unavailable" = "תכנון מסלול אינו זמין זמנית. נסה שוב בקרוב.";
+
+"error.outside_bounds" = "מיקום זה אינו נתמך עדיין במערכת.";
+
+"error.path_not_found" = "לא נמצא מסלול זמין עבור נסיעה זו.";
+
+"error.no_transit_times" = "אין אפשרויות תחבורה ציבורית זמינות כרגע.";
+
+"error.request_timeout" = "הפעולה ארכה זמן רב מדי מהצפוי. אנא נסה שוב.";
+
+"error.bogus_parameter" = "אירעה שגיאה בבקשה. אנא נסה שוב.";
+
+/* Geocoding */
+"error.geocode_from_not_found" = "לא הצלחנו למצוא את מיקום המוצא.";
+
+"error.geocode_to_not_found" = "לא הצלחנו למצוא את היעד.";
+
+"error.geocode_from_to_not_found" = "לא הצלחנו למצוא את נקודת המוצא או את היעד.";
+
+"error.geocode_from_ambiguous" = "נקודת המוצא אינה ברורה דיה. נסה לדייק בחיפוש.";
+
+"error.geocode_to_ambiguous" = "היעד אינו ברור דיו. נסה לדייק בחיפוש.";
+
+"error.geocode_from_to_ambiguous" = "שני המיקומים דורשים פירוט נוסף. נסה לעדן את החיפוש.";
+
+/* Validation */
+"error.too_close" = "נקודת המוצא והיעד קרובות מדי זו לזו.";
+
+"error.location_not_accessible" = "מסלול זה אינו נגיש עם האפשרות שנבחרה.";
+
+/* Triangle routing (advanced) */
+"error.underspecified_triangle" = "חלק מהעדפות המסלול חסרות.";
+
+"error.triangle_not_affine" = "העדפות המסלול שנבחרו אינן מתיישבות זו עם זו.";
+
+"error.triangle_optimize_type_not_set" = "אנא בחר העדפת מסלול.";
+
+"error.triangle_values_not_set" = "אנא התאם את העדפות המסלול.";
+
+/* Map */
+"map.destination" = "יעד";
+
+/* Loading */
+"loading.planning_trip" = "מתכנן את הנסיעה שלך...";
+
+/* Time Selection */
+"time_selection.title" = "בחירת זמן";
+
+"time_selection.date" = "תאריך";
+
+"time_selection.time" = "שעה";
+
+"time_selection.select_date_accessibility" = "בחר תאריך יציאה";
+
+"time_selection.select_time_accessibility" = "בחר שעת יציאה";
+
+/* Time Preference */
+"time_preference.leave_now_title" = "יציאה כעת";
+
+"time_preference.depart_at_title" = "יציאה בשעה";
+
+"time_preference.arrive_by_title" = "הגעה עד";
+
+"time_preference.leave_now_desc" = "התחל את הנסיעה באופן מיידי";
+
+"time_preference.depart_at_desc" = "יציאה בשעה מסוימת";
+
+"time_preference.arrive_by_desc" = "הגעה עד שעה מסוימת";
+
+/* Route Preference */
+"route_preference.fastest_trip_title" = "המסלול המהיר ביותר";
+
+"route_preference.fewest_transfers_title" = "מינימום החלפות";
+
+"route_preference.fastest_trip_desc" = "תעדוף זמן הנסיעה הקצר ביותר";
+
+"route_preference.fewest_transfers_desc" = "מזעור מספר החלפות הקווים";
+
+/* Search Bar */
+"search_bar.placeholder" = "חיפוש מקומות";
+
+/* Trip Results */
+"trip_results.no_trips_found" = "לא נמצאו מסלולים";
+
+/* Trip Preview */
+"trip_preview.depart_label" = "יציאה:";
+
+"trip_preview.arrive_label" = "הגעה:";
+
+/* Option Row */
+"option_row.selected_hint" = "נבחר";
+
+"option_row.tap_to_select_hint" = "הקש לבחירה";
+
+"option_row.preview_section" = "תצוגה מקדימה";
+
+"option_row.fastest_trip_title" = "המסלול המהיר ביותר";
+
+"option_row.fastest_trip_desc" = "תעדוף זמן נסיעה קצר";
+
+"option_row.fewest_transfers_title" = "מינימום החלפות";
+
+"option_row.fewest_transfers_desc" = "מזעור מספר החלפות הקווים";
+
+/* Advanced Options */
+"advanced_options.departure_time_title" = "שעת יציאה";
+
+"advanced_options.route_optimization_title" = "אופטימיזציית מסלול";
+
+"advanced_options.walking_distance_title" = "מרחק הליכה";
+
+"advanced_options.wheelchair_accessible" = "נגיש לכיסא גלגלים";
+
+"advanced_options.wheelchair_accessible_label" = "מסלולים נגישים לכיסאות גלגלים";
+
+"advanced_options.wheelchair_toggle_hint" = "הפעל למציאת מסלולים מותאמים לציוד ניידות";
+
+"advanced_options.wheelchair_footer" = "מצא מסלולים מותאמים לציוד ניידות ולכיסאות גלגלים";
+
+"advanced_options.max_walking_distance" = "מרחק הליכה מרבי";
+
+"advanced_options.cancel" = "ביטול";
+
+"advanced_options.done" = "סיום";
+
+"advanced_options.cancel_accessibility" = "בטל אפשרויות מתקדמות";
+
+"advanced_options.save_accessibility" = "שמור אפשרויות מתקדמות";
+
+/* Bottom Controls */
+"bottom.from" = "מ-";
+
+"bottom.to" = "אל";
+
+"bottom.current_location" = "מיקום נוכחי";
+
+"bottom.choose_destination" = "בחר יעד";
+
+"bottom.options" = "אפשרויות";
+
+"bottom.advanced_options" = "אפשרויות נסיעה";
+
+"itinerary.summary" = "יציאה ב-%@; משך: %@";
+
+/* Common */
+"common.cancel" = "ביטול";
+
+"common.close" = "סגור";
+
+"common.delete" = "מחק";
+
+"common.more" = "עוד";
+
+"common.unknown_location" = "לא ידוע";
+
+"common.error" = "שגיאה";
+
+"common.generic_error" = "אירעה שגיאה";
+
+/* Trip Planner */
+"trip_planner.title" = "תכנון נסיעה";
+
+"trip_planner.find_routes" = "מצא מסלולים";
+
+"trip_planner.go" = "סע";
+
+/* Location Picker */
+"location_picker.choose_start" = "בחר נקודת מוצא";
+
+"location_picker.choose_destination" = "בחר יעד";
+
+"location_picker.current_location_title" = "מיקום נוכחי";
+
+"location_picker.current_location_subtitle" = "השתמש במיקום ה-GPS הנוכחי שלך";
+
+"location_picker.gps_location_subtitle" = "מיקום ה-GPS הנוכחי שלך";
+
+"location_picker.favorites_title" = "מועדפים";
+
+"location_picker.favorites_subtitle" = "בחר מתוך המקומות השמורים שלך";
+
+"location_picker.recents_title" = "אחרונים";
+
+"location_picker.recents_subtitle" = "צפה במיקומים האחרונים שלך";
+
+/* Search */
+"search.searching" = "מחפש...";
+
+"search.no_results_title" = "לא נמצאו תוצאות";
+
+"search.no_results_message" = "נסה לחפש מיקום אחר";
+
+/* Current Location Button */
+"current_location.getting" = "מאתר מיקום...";
+
+"current_location.access_denied" = "הגישה למיקום נדחתה";
+
+"current_location.unavailable" = "המיקום אינו זמין";
+
+"current_location.use_current" = "השתמש במיקום הנוכחי";
+
+"current_location.getting_subtitle" = "אנא המתן בזמן שאנו מאתרים את מיקומך";
+
+"current_location.enable_in_settings" = "אפשר גישה למיקום בהגדרות המכשיר";
+
+"current_location.unable_subtitle" = "לא הצלחנו לקבל את מיקומך הנוכחי";
+
+"current_location.default_subtitle" = "קבל הנחיות הגעה מהמקום שבו אתה נמצא כעת";
+
+/* Favorites */
+"favorites.title" = "מועדפים";
+
+"favorites.empty" = "אין מועדפים";
+
+"favorites.sheet_title" = "תחנות מועדפות";
+
+"favorites.loading" = "טוען מועדפים...";
+
+"favorites.empty_title" = "אין תחנות מועדפות";
+
+"favorites.empty_message" = "עדיין לא שמרת מקומות מועדפים. התחל בבחירת מיקומים על המפה!";
+
+/* Recents */
+"recents.title" = "אחרונים";
+
+"recents.sheet_title" = "מיקומים אחרונים";
+
+"recents.loading" = "טוען מיקומים אחרונים...";
+
+"recents.empty_title" = "אין מיקומים אחרונים";
+
+"recents.empty_message" = "מיקומים שבהם ביקרת לאחרונה יופיעו כאן עם השימוש באפליקציה.";
+
+/* Directions */
+"directions.end_trip_confirm_title" = "לסיים את הנסיעה?";
+
+"directions.end_trip_confirm_message" = "האם אתה בטוח שברצונך לסיים את מעקב הנסיעה?";
+
+"directions.end_trip" = "סיים נסיעה";
+
+"directions.end_trip_cancel" = "לא";
+
+"directions.start" = "התחלה";
+
+"directions.end" = "סיום";
+
+"directions.start_navigation" = "התחל ניווט";
+
+/* Direction Legs */
+"leg.deboard_at" = "רד בתחנת";
+
+"leg.stop_id" = "מק"ט תחנה: %@";
+
+"leg.scheduled_at" = "מתוכנן לשעה %@";
+
+"leg.arrives_at" = "מגיע בשעה %@";
+
+"leg.walk_to" = "הליכה אל %@";
+
+"leg.walk_distance_duration" = "%1$@, כ-%2$@";
+
+"leg.step_turn" = "פנה %1$@ אל %2$@, והמשך בהליכה %3$@.";
+
+"leg.step_continue" = "המשך לאורך %1$@ למשך %2$@.";
+
+"leg.unknown_mode" = "אמצעי תחבורה לא ידוע";
+
+"leg.mode_duration" = "%1$@: %2$@";
+
+/* Trip Options Summary */
+"trip_options.depart_at_time" = "יציאה בשעה %@";
+
+"trip_options.arrive_by_time" = "הגעה עד %@";
+
+"trip_options.tomorrow_time" = "מחר בשעה %@";
+
+/* Walking Distance */
+"walking_distance.quarter_mile" = "0.25 מיל (~400 מ')";
+
+"walking_distance.half_mile" = "0.5 מיל (~800 מ')";
+
+"walking_distance.one_mile" = "1 מיל (~1.6 ק"מ)";
+
+"walking_distance.two_miles" = "2 מיל (~3.2 ק"מ)";
+
+"walking_distance.accessibility" = "מרחק הליכה מרבי: %@";
+
+/* Option Row */
+"option_row.accessibility_label" = "%1$@: %2$@";
+
+/* Service Errors */
+"error.invalid_response" = "השרת החזיר תגובה לא תקינה";
+
+"error.saved_locations_unavailable" = "נכשל באחזור נתוני מיקומים שמורים";
+
+/* Location */
+"location.no_address" = "אין כתובת זמינה";
+
+/* Transport Modes */
+"transport_mode.transit" = "תחבורה ציבורית";
+
+"transport_mode.walk" = "הליכה";
+
+"transport_mode.bike" = "אופניים";
+
+"transport_mode.car" = "רכב";
+
+"transport_mode.bike_rental" = "השכרת אופניים בלבד";
+
+"transport_mode.transit_bike_rental" = "תחבורה ציבורית + השכרת אופניים";
+
+"rental.vehicle_type.bike" = "אופניים";
+
+"rental.vehicle_type.ebike" = "אופניים חשמליים";
+
+"rental.vehicle_type.scooter" = "קורקינט";
+
+"rental.vehicle_type.car" = "רכב";
+
+"rental.vehicle_type.moped" = "טוסטוס";
+
+"rental.vehicle_type.vehicle" = "כלי רכב";
+
+/* Walking Directions */
+"direction.depart" = "צא לדרך";
+
+"direction.hard_left" = "פנה פנייה חדה שמאלה";
+
+"direction.left" = "פנה שמאלה";
+
+"direction.slightly_left" = "היצמד לשמאל";
+
+"direction.continue" = "המשך ישר";
+
+"direction.slightly_right" = "היצמד לימין";
+
+"direction.right" = "פנה ימינה";
+
+"direction.hard_right" = "פנה פנייה חדה ימינה";
+
+"direction.elevator" = "עלה במעלית";
+
+"direction.enter_station" = "היכנס לתחנה";
+
+"direction.exit_station" = "צא מהתחנה";
+
+"direction.follow_signs" = "עקוב אחר השילוט";
+
+/* Leg Modes */
+"leg_mode.bus" = "אוטובוס";
+
+"leg_mode.tram" = "חשמלית / רכבת קלה";
+
+"leg_mode.subway" = "רכבת תחתית";
+
+"leg_mode.rail" = "רכבת";
+
+"leg_mode.ferry" = "מעבורת";
+
+"leg_mode.cable_car" = "רכבל";
+
+"leg_mode.gondola" = "גונדולה";
+
+"leg_mode.funicular" = "פוניקולר";
+
+"leg_mode.airplane" = "מטוס";
+
+"leg_mode.trolleybus" = "טרוליבוס";
+
+"leg_mode.monorail" = "מונורייל";
+
+/* Simplify pass: unified keys */
+"trip_options.walk_distance" = "הליכה של %@";
+
+"leg.board_with_route" = "עלה על %1$@ קו %2$@";
+
+"leg.board_agency_only" = "עלה על %@";
+
+"location.unknown_place" = "מיקום לא ידוע";
+
+/* Roundabout and U-turn directions, kept distinct per side */
+"direction.uturn_left" = "בצע פניית פרסה שמאלה";
+
+"direction.uturn_right" = "בצע פניית פרסה ימינה";
+
+"direction.circle_clockwise" = "היכנס למעגל התנועה עם כיוון השעון";
+
+"direction.circle_counterclockwise" = "היכנס למעגל התנועה נגד כיוון השעון";
+
+/* Real-time status. The four strings are fixed vocabulary per the OBA content guide. */
+"status.on_time" = "בזמן";
+
+"status.late_fmt" = "באיחור של %d דק'";
+
+"status.early_fmt" = "מוקדם ב-%d דק'";
+
+"status.scheduled" = "לפי לוח זמנים";
+
+/* In-trip progress rail */
+"rail.arrive_at_fmt" = "הגעה אל %@";
+
+"rail.time_left_fmt" = "נותרו %@";
+
+"rail.transfer_one" = "החלפה אחת";
+
+"rail.transfers_fmt" = "%d החלפות";
+
+"rail.leave_in_fmt" = "יציאה בעוד %@";
+
+"rail.start_walking_fmt" = "התחל ללכת בשעה %1$@ כדי לתפוס את %2$@";
+
+"rail.leave_at_fmt" = "יציאה בשעה %@";
+
+"rail.start_trip" = "התחל נסיעה";
+
+"rail.hide" = "הסתר";
+
+"rail.walk_fmt" = "הליכה של %1$@ אל %2$@";
+
+"rail.walked_done_fmt" = "הלכת %@ · הושלם";
+
+"rail.about_duration_fmt" = "כ-%@";
+
+"rail.board" = "עלייה";
+
+"rail.boarded_done_fmt" = "עלית על %@ · הושלם";
+
+"rail.toward_fmt" = "לכיוון %@";
+
+"rail.toward_stops_fmt" = "לכיוון %1$@ · %2$@";
+
+"rail.stop_one" = "תחנה אחת";
+
+"rail.stops_fmt" = "%d תחנות";
+
+"rail.arriving_in_fmt" = "מגיע בעוד %@";
+
+"rail.departs_at_fmt" = "יוצא בשעה %@";
+
+"rail.at_stop_fmt" = "בתחנת %@";
+
+"rail.stop_code_fmt" = "תחנה מס' %@";
+
+"rail.ride_stops_duration_fmt" = "נסיעה של %1$@, %2$@";
+
+"rail.stops_to_go_fmt" = "נותרו עוד %d תחנות";
+
+"rail.one_stop_to_go" = "נותרה עוד תחנה אחת";
+
+"rail.get_off_at_fmt" = "רד בתחנת %@";
+
+"rail.wait_for_fmt" = "המתן %1$@ עבור %2$@";
+
+"rail.wait_same_stop_fmt" = "המתן %1$@ · %2$@ יוצא מאותה התחנה";
+
+"rail.same_stop_note" = "אותה תחנה שבה ירדת — הישאר במקום, ללא חציית כביש.";
+
+"rail.arrive" = "הגעה";
+
+"rail.arrived" = "הגעת ליעד";
+
+"rail.back_to_now" = "חזרה לעכשיו";
+
+"rail.back_to_now_fmt" = "חזרה לעכשיו · %@";
+
+"rail.now_walking" = "הולך ברגל";
+
+"rail.now_waiting_fmt" = "ממתין לקו %@";
+
+"rail.now_riding_fmt" = "נוסע ב-%@";
+
+"rail.step_of_previewing_fmt" = "שלב %1$d מתוך %2$d · תצוגה מקדימה";
+
+"rail.next_leg_fmt" = "%1$@ · %2$@ בשעה %3$@";
+
+"rail.last_step" = "שלב אחרון";
+
+"rail.arrive_time_fmt" = "הגעה ב-%@";
+
+"rail.now" = "עכשיו";
+
+/* Vehicle rental legs */
+"leg.bike_to" = "רכיבה אל %@";
+
+"leg.ride_rental_bike_to" = "רכיבה באופניים שכורים אל %@";
+
+"place.rental_bike" = "אופניים שכורים";
+
+"rail.now_riding_rental" = "רוכב באופניים שכורים";
+
+"rail.pick_up_bike" = "איסוף אופניים שכורים";
+
+"rail.picked_up_bike" = "נאספו אופניים שכורים";
+
+"rail.ride_bike_to_fmt" = "רכיבה אל %@";
+
+"rail.drop_off_bike" = "החזרת אופניים";
+
+"rail.ride_distance_duration_fmt" = "%1$@, כ-%2$@";
+
