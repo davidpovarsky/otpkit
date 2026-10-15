@@ -41,4 +41,24 @@ public struct RequestParameters: Codable, Hashable {
 
     /// Indicates whether the route should accommodate wheelchair access ("true" or "false").
     public let wheelchair: String
+
+    public init(
+        fromPlace: String = "",
+        toPlace: String = "",
+        time: String = "",
+        date: String = "",
+        mode: String = "TRANSIT,WALK",
+        arriveBy: String = "false",
+        maxWalkDistance: String = "1000",
+        wheelchair: String = "false"
+    ) {
+        self.fromPlace = fromPlace
+        self.toPlace = toPlace
+        self.time = time
+        self.date = date
+        self.mode = mode
+        self.arriveBy = arriveBy
+        self.maxWalkDistance = maxWalkDistance
+        self.wheelchair = wheelchair
+    }
 }

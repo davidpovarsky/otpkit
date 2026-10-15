@@ -276,7 +276,7 @@
 /* Direction Legs */
 "leg.deboard_at" = "רד בתחנת";
 
-"leg.stop_id" = "מק"ט תחנה: %@";
+"leg.stop_id" = "מק\"ט תחנה: %@";
 
 "leg.scheduled_at" = "מתוכנן לשעה %@";
 
@@ -306,9 +306,9 @@
 
 "walking_distance.half_mile" = "0.5 מיל (~800 מ')";
 
-"walking_distance.one_mile" = "1 מיל (~1.6 ק"מ)";
+"walking_distance.one_mile" = "1 מיל (~1.6 ק\"מ)";
 
-"walking_distance.two_miles" = "2 מיל (~3.2 ק"מ)";
+"walking_distance.two_miles" = "2 מיל (~3.2 ק\"מ)";
 
 "walking_distance.accessibility" = "מרחק הליכה מרבי: %@";
 

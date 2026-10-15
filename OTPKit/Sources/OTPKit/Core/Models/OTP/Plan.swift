@@ -31,6 +31,13 @@ public struct Plan: Codable, Hashable {
 
     /// List of `Itinerary` objects providing different routing options within the travel plan.
     public let itineraries: [Itinerary]
+
+    public init(date: Date, from: Place, to: Place, itineraries: [Itinerary]) {
+        self.date = date
+        self.from = from
+        self.to = to
+        self.itineraries = itineraries
+    }
 }
 
 // swiftlint:enable identifier_name

@@ -14,4 +14,9 @@ public struct LegGeometry: Codable, Hashable {
 
     /// The number of coordinates represented by `points`.
     public let length: Int
+
+    public init(points: String, length: Int) {
+        self.points = points
+        self.length = length
+    }
 }

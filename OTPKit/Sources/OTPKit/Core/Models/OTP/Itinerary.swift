@@ -56,6 +56,34 @@ public struct Itinerary: Codable, Hashable {
     /// Array of `Leg` objects representing individual segments of the itinerary.
     public let legs: [Leg]
 
+    public init(
+        duration: Int,
+        startTime: Date,
+        endTime: Date,
+        walkTime: Int,
+        transitTime: Int,
+        waitingTime: Int,
+        walkDistance: Double,
+        walkLimitExceeded: Bool = false,
+        elevationLost: Double = 0.0,
+        elevationGained: Double = 0.0,
+        transfers: Int,
+        legs: [Leg]
+    ) {
+        self.duration = duration
+        self.startTime = startTime
+        self.endTime = endTime
+        self.walkTime = walkTime
+        self.transitTime = transitTime
+        self.waitingTime = waitingTime
+        self.walkDistance = walkDistance
+        self.walkLimitExceeded = walkLimitExceeded
+        self.elevationLost = elevationLost
+        self.elevationGained = elevationGained
+        self.transfers = transfers
+        self.legs = legs
+    }
+
     /// Array of `Leg` objects with walk less than 1 minute in duration removed
     /// and consecutive legs with the same route merged.
     public var relevantLegs: [Leg] {

@@ -26,4 +26,10 @@ public struct OTPResponse: Codable, Hashable {
 
     /// Optional `ErrorResponse` object containing error details if the request failed.
     public let error: ErrorResponse?
+
+    public init(requestParameters: RequestParameters, plan: Plan?, error: ErrorResponse? = nil) {
+        self.requestParameters = requestParameters
+        self.plan = plan
+        self.error = error
+    }
 }
