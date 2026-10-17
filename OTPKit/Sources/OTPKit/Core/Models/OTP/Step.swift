@@ -35,4 +35,20 @@ public struct Step: Codable, Hashable {
 
     /// Latitude of the place.
     public let lat: Double
+
+    public init(
+        distance: Double,
+        streetName: String,
+        relativeDirection: String? = nil,
+        elevationChange: Double? = nil,
+        lon: Double,
+        lat: Double
+    ) {
+        self.distance = distance
+        self.streetName = streetName
+        self.relativeDirection = relativeDirection
+        self.elevationChange = elevationChange
+        self.lon = lon
+        self.lat = lat
+    }
 }
